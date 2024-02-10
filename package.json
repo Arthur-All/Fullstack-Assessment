@@ -8,7 +8,7 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "author": "Arthur-All",
   "license": "MIT",
@@ -16,7 +16,8 @@
     "cors": "^2.8.5",
     "docker-compose": "^0.24.3",
     "express": "^4.18.2",
-    "next": "^13.1.6"
+    "next": "^13.1.6",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
     "jest": "^29.6.2",
