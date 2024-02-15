@@ -16,7 +16,7 @@ async function status(request, response) {
   });
 
   const dbOpenedConnectionsValue = dbOpenedConnectionsResult.rows[0].count;
-
+  response.setHeader("Access-Control-Allow-Origin", "*");
   response.status(200).json({
     updated_at: updatedAt,
     dependencies: {
