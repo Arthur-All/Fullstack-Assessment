@@ -11,12 +11,16 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "migrate:create": "db-migrate create seed --config infra/config/dev.json",
+    "migrate:up": "db-migrate up --config infra/config/dev.json",
+    "migrate:down": "db-migrate down --config infra/config/dev.json"
   },
   "author": "Arthur-All",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "db-migrate-pg": "^1.5.2",
     "docker-compose": "^0.24.3",
     "express": "^4.18.2",
     "next": "^13.1.6",
