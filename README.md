@@ -1,5 +1,6 @@
 # Fullstack-Assessment
-
+---
+to run the project: npm run dev
 ---
 
 ### Architecture and Folders:
