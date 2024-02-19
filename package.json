@@ -24,10 +24,13 @@
     "docker-compose": "^0.24.3",
     "express": "^4.18.2",
     "next": "^13.1.6",
+    "nextjs-cors": "^2.2.0",
+    "nodemon": "^3.0.3",
     "pg": "^8.11.3"
   },
   "devDependencies": {
     "jest": "^29.6.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
   }
 }
